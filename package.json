@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "atob": "^2.1.2",
     "bcrypt": "^5.0.0",
+    "btoa": "^1.2.1",
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.0",
+    "express-jwt": "^6.0.0",
     "express-session": "^1.17.1",
+    "jwks-rsa": "^1.12.2",
+    "node-fetch": "^2.6.1",
     "sequelize": "^6.4.0",
     "sqlite3": "^5.0.0"
   },
