@@ -59,7 +59,7 @@ app.post('/login', async (req, res) => {
             headers: { 
                 'content-type': 'application/json' 
             },
-            body: '{"client_id":"RKCZVGPvD56Zwuh31ctOAwFFEGCX6yVx","client_secret":"4kPyas-MlfziI7kyBHMoQulA74bbWzULYsuBXULLeJHG3C_rllZ3tzbW5GiZZcCO","audience":"http://localhost:3000/","grant_type":"client_credentials"}'
+            body: '{"client_id":"RKCZVGPvD56Zwuh31ctOAwFFEGCX6yVx","client_secret":"//////","audience":"http://localhost:3000/","grant_type":"client_credentials"}'
         }
         )
         .then(res => res.json())
